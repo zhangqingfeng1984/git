@@ -1,3 +1,7 @@
-echo $1
-echo $2
-echo $3
+VERSION=$1
+if [ ! -z "$1" ] 
+then
+echo $VERSION
+else
+echo "VERSION not found"
+fi
