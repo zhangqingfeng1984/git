@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 VERSION=$1
 ARTIFACT=$2
 echo "$VERSION $ARTIFACT"
