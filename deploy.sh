@@ -7,5 +7,6 @@ git add .
 git commit -m 'release update'
 git push
 
-tar cvzf `$ARTIFACT-$VERSION.tgz` *
+FILE=`$ARTIFACT-$VERSION`.tgz
+tar cvzf $FILE *
 echo 'deploy done'
