@@ -9,5 +9,5 @@ git commit -m 'release update'
 
 FILE=$ARTIFACT-$VERSION.tgz
 echo $FILE
-#tar cvzf $FILE *
+tar cvzf $FILE *
 echo 'deploy done'
