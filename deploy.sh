@@ -10,4 +10,4 @@ git push
 FILE=$ARTIFACT-$VERSION.tgz
 echo $FILE
 tar cvzf $FILE dist
-echo 'deploy done111'
+echo 'deploy done111222'
